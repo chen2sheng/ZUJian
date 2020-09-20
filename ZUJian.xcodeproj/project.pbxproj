@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34BC9BD925176B2F00775541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9BD825176B2F00775541 /* AppDelegate.m */; };
+		34BC9BDC25176B2F00775541 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9BDB25176B2F00775541 /* SceneDelegate.m */; };
+		34BC9BDF25176B2F00775541 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9BDE25176B2F00775541 /* ViewController.m */; };
+		34BC9BE225176B2F00775541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BC9BE025176B2F00775541 /* Main.storyboard */; };
+		34BC9BE425176B4B00775541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BC9BE325176B4B00775541 /* Assets.xcassets */; };
+		34BC9BE725176B4B00775541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BC9BE525176B4B00775541 /* LaunchScreen.storyboard */; };
+		34BC9BEA25176B4B00775541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9BE925176B4B00775541 /* main.m */; };
+		49FD8759C9AA9FBCAF3D99B7 /* Pods_ZUJian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F465FC3C255FE090C38B360 /* Pods_ZUJian.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34BC9BD425176B2F00775541 /* ZUJian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZUJian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BC9BD725176B2F00775541 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34BC9BD825176B2F00775541 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34BC9BDA25176B2F00775541 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		34BC9BDB25176B2F00775541 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		34BC9BDD25176B2F00775541 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34BC9BDE25176B2F00775541 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34BC9BE125176B2F00775541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34BC9BE325176B4B00775541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34BC9BE625176B4B00775541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34BC9BE825176B4B00775541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BC9BE925176B4B00775541 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F465FC3C255FE090C38B360 /* Pods_ZUJian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZUJian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C577E1C4E1A607CEC8BF324 /* Pods-ZUJian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZUJian.release.xcconfig"; path = "Target Support Files/Pods-ZUJian/Pods-ZUJian.release.xcconfig"; sourceTree = "<group>"; };
+		91AC316BCFD3485AABD95B2E /* Pods-ZUJian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZUJian.debug.xcconfig"; path = "Target Support Files/Pods-ZUJian/Pods-ZUJian.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34BC9BD125176B2F00775541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FD8759C9AA9FBCAF3D99B7 /* Pods_ZUJian.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34BC9BCB25176B2E00775541 = {
+			isa = PBXGroup;
+			children = (
+				34BC9BD625176B2F00775541 /* ZUJian */,
+				34BC9BD525176B2F00775541 /* Products */,
+				6CA78CFDDF65082A7EBD3483 /* Pods */,
+				90FB1C917695D6C53E37080D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34BC9BD525176B2F00775541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34BC9BD425176B2F00775541 /* ZUJian.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34BC9BD625176B2F00775541 /* ZUJian */ = {
+			isa = PBXGroup;
+			children = (
+				34BC9BD725176B2F00775541 /* AppDelegate.h */,
+				34BC9BD825176B2F00775541 /* AppDelegate.m */,
+				34BC9BDA25176B2F00775541 /* SceneDelegate.h */,
+				34BC9BDB25176B2F00775541 /* SceneDelegate.m */,
+				34BC9BDD25176B2F00775541 /* ViewController.h */,
+				34BC9BDE25176B2F00775541 /* ViewController.m */,
+				34BC9BE025176B2F00775541 /* Main.storyboard */,
+				34BC9BE325176B4B00775541 /* Assets.xcassets */,
+				34BC9BE525176B4B00775541 /* LaunchScreen.storyboard */,
+				34BC9BE825176B4B00775541 /* Info.plist */,
+				34BC9BE925176B4B00775541 /* main.m */,
+			);
+			path = ZUJian;
+			sourceTree = "<group>";
+		};
+		6CA78CFDDF65082A7EBD3483 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91AC316BCFD3485AABD95B2E /* Pods-ZUJian.debug.xcconfig */,
+				7C577E1C4E1A607CEC8BF324 /* Pods-ZUJian.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		90FB1C917695D6C53E37080D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F465FC3C255FE090C38B360 /* Pods_ZUJian.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34BC9BD325176B2F00775541 /* ZUJian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BC9BED25176B4B00775541 /* Build configuration list for PBXNativeTarget "ZUJian" */;
+			buildPhases = (
+				BA2EBF0E26AFC88677808CBC /* [CP] Check Pods Manifest.lock */,
+				34BC9BD025176B2F00775541 /* Sources */,
+				34BC9BD125176B2F00775541 /* Frameworks */,
+				34BC9BD225176B2F00775541 /* Resources */,
+				AA54986AD0E6DAC24B040954 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZUJian;
+			productName = ZUJian;
+			productReference = 34BC9BD425176B2F00775541 /* ZUJian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34BC9BCC25176B2E00775541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = siyoutrip;
+				TargetAttributes = {
+					34BC9BD325176B2F00775541 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 34BC9BCF25176B2E00775541 /* Build configuration list for PBXProject "ZUJian" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34BC9BCB25176B2E00775541;
+			productRefGroup = 34BC9BD525176B2F00775541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34BC9BD325176B2F00775541 /* ZUJian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34BC9BD225176B2F00775541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BC9BE725176B4B00775541 /* LaunchScreen.storyboard in Resources */,
+				34BC9BE425176B4B00775541 /* Assets.xcassets in Resources */,
+				34BC9BE225176B2F00775541 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA54986AD0E6DAC24B040954 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZUJian/Pods-ZUJian-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZUJian/Pods-ZUJian-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZUJian/Pods-ZUJian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2EBF0E26AFC88677808CBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZUJian-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34BC9BD025176B2F00775541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BC9BDF25176B2F00775541 /* ViewController.m in Sources */,
+				34BC9BD925176B2F00775541 /* AppDelegate.m in Sources */,
+				34BC9BEA25176B4B00775541 /* main.m in Sources */,
+				34BC9BDC25176B2F00775541 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34BC9BE025176B2F00775541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34BC9BE125176B2F00775541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34BC9BE525176B4B00775541 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34BC9BE625176B4B00775541 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34BC9BEB25176B4B00775541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34BC9BEC25176B4B00775541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34BC9BEE25176B4B00775541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AC316BCFD3485AABD95B2E /* Pods-ZUJian.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M63Y7QBJKZ;
+				INFOPLIST_FILE = ZUJian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = siyoutrip.com.ZUJian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34BC9BEF25176B4B00775541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C577E1C4E1A607CEC8BF324 /* Pods-ZUJian.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M63Y7QBJKZ;
+				INFOPLIST_FILE = ZUJian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = siyoutrip.com.ZUJian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34BC9BCF25176B2E00775541 /* Build configuration list for PBXProject "ZUJian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BC9BEB25176B4B00775541 /* Debug */,
+				34BC9BEC25176B4B00775541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BC9BED25176B4B00775541 /* Build configuration list for PBXNativeTarget "ZUJian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BC9BEE25176B4B00775541 /* Debug */,
+				34BC9BEF25176B4B00775541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34BC9BCC25176B2E00775541 /* Project object */;
+}

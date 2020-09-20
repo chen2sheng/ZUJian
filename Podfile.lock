@@ -1,0 +1,16 @@
+PODS:
+  - CSNetwork (0.1.0)
+
+DEPENDENCIES:
+  - CSNetwork (from `MyLib/CSNetwork`)
+
+EXTERNAL SOURCES:
+  CSNetwork:
+    :path: MyLib/CSNetwork
+
+SPEC CHECKSUMS:
+  CSNetwork: e81368ef85333de8342a80241db1ee6891d4d33d
+
+PODFILE CHECKSUM: f3afb9e6d3cec415c3888012adbf02070217a01f
+
+COCOAPODS: 1.9.3

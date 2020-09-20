@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FEB8C18EE9E30C74D53B7A6C7A03E2C /* GuestSid.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3E75894DA32CD34BFADDD7AB199084 /* GuestSid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BA0D6DA9F474CDF01BEDE993E9E082A /* Pods-ZUJian-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 778B49346E22585395C099521E0847C1 /* Pods-ZUJian-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBDCCC293FF503DBCB6B8C46AB41525 /* Pods-ZUJian-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 529E2ABA325FC2D3750030CA22C3B947 /* Pods-ZUJian-dummy.m */; };
+		7845F3DAE65F072140F52410BFAD8EC2 /* GuestSid.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA5BE79D962FD45514D6AD9B526BAF /* GuestSid.m */; };
+		96850C0625FD60AFAF9062B97E57F915 /* CSNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFB2D72AE1098EBBFB5DC356C374AD7 /* CSNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D520F93725C2726766F853D06DB9D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D9A3DACE2722E2B08D479EEB5C530A63 /* CSNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA23CEC8B04957CC0FBDA0D1DE8BA19 /* CSNetwork-dummy.m */; };
+		E9CF2FAC92971E6964B497926F8B1079 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B894C26237FCB9F1F3D5C80E578390F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E007E252DD3ACFDF6D56674A4765AA5E;
+			remoteInfo = CSNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14D096D09ED446E7BDC928E4CD80D9FB /* Pods-ZUJian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZUJian.release.xcconfig"; sourceTree = "<group>"; };
+		198AA75B08D0406CF0C06A3E310280CE /* CSNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSNetwork.debug.xcconfig; sourceTree = "<group>"; };
+		299828C461ECE04A5CD4987D6BCD8690 /* Pods-ZUJian-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZUJian-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FFB2D72AE1098EBBFB5DC356C374AD7 /* CSNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSNetwork-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3289E9E2A3EF3E78A1087BA56ABBCB54 /* CSNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSNetwork-prefix.pch"; sourceTree = "<group>"; };
+		37A84B79BD3760CAE410677CBAEC341F /* Pods_ZUJian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZUJian.framework; path = "Pods-ZUJian.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		529E2ABA325FC2D3750030CA22C3B947 /* Pods-ZUJian-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZUJian-dummy.m"; sourceTree = "<group>"; };
+		601D383A370AD0F5F79F4EC69A065AA0 /* CSNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CSNetwork.framework; path = CSNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64188DAC344223675B0CE1FA721AB170 /* Pods-ZUJian-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZUJian-acknowledgements.plist"; sourceTree = "<group>"; };
+		73FFDFFF8937BF05E0AFD5D480796E56 /* Pods-ZUJian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZUJian.debug.xcconfig"; sourceTree = "<group>"; };
+		778B49346E22585395C099521E0847C1 /* Pods-ZUJian-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZUJian-umbrella.h"; sourceTree = "<group>"; };
+		7F9DAF1EB3594542732CF8A62A370443 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		83EC2444B4A111F802D33201EB0EA7EE /* CSNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CSNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		863F1EAD18607837356ED92BF3ACAA96 /* Pods-ZUJian-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZUJian-frameworks.sh"; sourceTree = "<group>"; };
+		8A7FAA719A72E373CCF712CFDCFA1FE6 /* Pods-ZUJian-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZUJian-Info.plist"; sourceTree = "<group>"; };
+		8C3E75894DA32CD34BFADDD7AB199084 /* GuestSid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GuestSid.h; path = CSNetwork/Classes/GuestSid.h; sourceTree = "<group>"; };
+		8E4D362C50B0C7CAA06CF2EC94CB5BE9 /* CSNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSNetwork.modulemap; sourceTree = "<group>"; };
+		9CFA6329A61C264F0D309CFA035A5516 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA23CEC8B04957CC0FBDA0D1DE8BA19 /* CSNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSNetwork-dummy.m"; sourceTree = "<group>"; };
+		A00F4F2DECC1799D52A46F28A73AF4CD /* CSNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CSNetwork-Info.plist"; sourceTree = "<group>"; };
+		B8893BDA98653D2B4E8EC2FC2C1CE103 /* CSNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSNetwork.release.xcconfig; sourceTree = "<group>"; };
+		BAFA5BE79D962FD45514D6AD9B526BAF /* GuestSid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GuestSid.m; path = CSNetwork/Classes/GuestSid.m; sourceTree = "<group>"; };
+		D7338CE1B59C031D3854CA1E2CE47A9D /* Pods-ZUJian.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZUJian.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12459279208FF5A89BE898601A4DC233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9CF2FAC92971E6964B497926F8B1079 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C47256D72971003E0228D970AC001FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D520F93725C2726766F853D06DB9D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A3E1E8410FB3262E1950E31D85D9B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				865CB46998811DFB834B5BD74DCF764E /* Pods-ZUJian */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1E6D9BCDDB0426DAAC627F97997E2061 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DC9A4C83204AE7364B98C52B70B5D1A /* CSNetwork */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2DC9A4C83204AE7364B98C52B70B5D1A /* CSNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				8C3E75894DA32CD34BFADDD7AB199084 /* GuestSid.h */,
+				BAFA5BE79D962FD45514D6AD9B526BAF /* GuestSid.m */,
+				4F460EDD8E0DB9AFB5E264750DCC2F88 /* Pod */,
+				AD517360274CF69570CF41612874CCB1 /* Support Files */,
+			);
+			name = CSNetwork;
+			path = ../MyLib/CSNetwork;
+			sourceTree = "<group>";
+		};
+		4F460EDD8E0DB9AFB5E264750DCC2F88 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				83EC2444B4A111F802D33201EB0EA7EE /* CSNetwork.podspec */,
+				7F9DAF1EB3594542732CF8A62A370443 /* LICENSE */,
+				9CFA6329A61C264F0D309CFA035A5516 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		865CB46998811DFB834B5BD74DCF764E /* Pods-ZUJian */ = {
+			isa = PBXGroup;
+			children = (
+				D7338CE1B59C031D3854CA1E2CE47A9D /* Pods-ZUJian.modulemap */,
+				299828C461ECE04A5CD4987D6BCD8690 /* Pods-ZUJian-acknowledgements.markdown */,
+				64188DAC344223675B0CE1FA721AB170 /* Pods-ZUJian-acknowledgements.plist */,
+				529E2ABA325FC2D3750030CA22C3B947 /* Pods-ZUJian-dummy.m */,
+				863F1EAD18607837356ED92BF3ACAA96 /* Pods-ZUJian-frameworks.sh */,
+				8A7FAA719A72E373CCF712CFDCFA1FE6 /* Pods-ZUJian-Info.plist */,
+				778B49346E22585395C099521E0847C1 /* Pods-ZUJian-umbrella.h */,
+				73FFDFFF8937BF05E0AFD5D480796E56 /* Pods-ZUJian.debug.xcconfig */,
+				14D096D09ED446E7BDC928E4CD80D9FB /* Pods-ZUJian.release.xcconfig */,
+			);
+			name = "Pods-ZUJian";
+			path = "Target Support Files/Pods-ZUJian";
+			sourceTree = "<group>";
+		};
+		AD517360274CF69570CF41612874CCB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E4D362C50B0C7CAA06CF2EC94CB5BE9 /* CSNetwork.modulemap */,
+				9DA23CEC8B04957CC0FBDA0D1DE8BA19 /* CSNetwork-dummy.m */,
+				A00F4F2DECC1799D52A46F28A73AF4CD /* CSNetwork-Info.plist */,
+				3289E9E2A3EF3E78A1087BA56ABBCB54 /* CSNetwork-prefix.pch */,
+				2FFB2D72AE1098EBBFB5DC356C374AD7 /* CSNetwork-umbrella.h */,
+				198AA75B08D0406CF0C06A3E310280CE /* CSNetwork.debug.xcconfig */,
+				B8893BDA98653D2B4E8EC2FC2C1CE103 /* CSNetwork.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/CSNetwork";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1E6D9BCDDB0426DAAC627F97997E2061 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FE5B7B835A158965C69025FDA1ED9220 /* Products */,
+				06A3E1E8410FB3262E1950E31D85D9B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE5B7B835A158965C69025FDA1ED9220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				601D383A370AD0F5F79F4EC69A065AA0 /* CSNetwork.framework */,
+				37A84B79BD3760CAE410677CBAEC341F /* Pods_ZUJian.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F2FFFAFF25A2F63DF8E17DA37D59AAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA0D6DA9F474CDF01BEDE993E9E082A /* Pods-ZUJian-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6550D0A9384ECD1FC1D3AC2E79AC1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96850C0625FD60AFAF9062B97E57F915 /* CSNetwork-umbrella.h in Headers */,
+				1FEB8C18EE9E30C74D53B7A6C7A03E2C /* GuestSid.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E007E252DD3ACFDF6D56674A4765AA5E /* CSNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85E1DEA401FEBDCBB35D70005681B9F /* Build configuration list for PBXNativeTarget "CSNetwork" */;
+			buildPhases = (
+				8D6550D0A9384ECD1FC1D3AC2E79AC1C /* Headers */,
+				46D447924F7F4566FB3C1988717EE4D0 /* Sources */,
+				12459279208FF5A89BE898601A4DC233 /* Frameworks */,
+				CEBB6ADF256634DFAD9BAF8310B1DDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSNetwork;
+			productName = CSNetwork;
+			productReference = 601D383A370AD0F5F79F4EC69A065AA0 /* CSNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5BFED241525885B44685C34B1229C86 /* Pods-ZUJian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1DE73FB04FFB27422082D7C80E81FC /* Build configuration list for PBXNativeTarget "Pods-ZUJian" */;
+			buildPhases = (
+				6F2FFFAFF25A2F63DF8E17DA37D59AAC /* Headers */,
+				0926EE8351A85F3565C97BF9EEF00890 /* Sources */,
+				2C47256D72971003E0228D970AC001FF /* Frameworks */,
+				0D04F635570C5D0CFC3E717B0767A571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A900938D62AB351D3E02D2408805C52B /* PBXTargetDependency */,
+			);
+			name = "Pods-ZUJian";
+			productName = "Pods-ZUJian";
+			productReference = 37A84B79BD3760CAE410677CBAEC341F /* Pods_ZUJian.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FE5B7B835A158965C69025FDA1ED9220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E007E252DD3ACFDF6D56674A4765AA5E /* CSNetwork */,
+				F5BFED241525885B44685C34B1229C86 /* Pods-ZUJian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D04F635570C5D0CFC3E717B0767A571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB6ADF256634DFAD9BAF8310B1DDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0926EE8351A85F3565C97BF9EEF00890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBDCCC293FF503DBCB6B8C46AB41525 /* Pods-ZUJian-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D447924F7F4566FB3C1988717EE4D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A3DACE2722E2B08D479EEB5C530A63 /* CSNetwork-dummy.m in Sources */,
+				7845F3DAE65F072140F52410BFAD8EC2 /* GuestSid.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A900938D62AB351D3E02D2408805C52B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CSNetwork;
+			target = E007E252DD3ACFDF6D56674A4765AA5E /* CSNetwork */;
+			targetProxy = 5B894C26237FCB9F1F3D5C80E578390F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DDF340280C276F50FACBEAE7E77E082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FFDFFF8937BF05E0AFD5D480796E56 /* Pods-ZUJian.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZUJian/Pods-ZUJian-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZUJian/Pods-ZUJian.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9AE30EBEDDB0908F0820D1E72D437EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198AA75B08D0406CF0C06A3E310280CE /* CSNetwork.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CSNetwork/CSNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSNetwork/CSNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CSNetwork/CSNetwork.modulemap";
+				PRODUCT_MODULE_NAME = CSNetwork;
+				PRODUCT_NAME = CSNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAA18A0748E7CFC3098C9F7F93DAF5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8893BDA98653D2B4E8EC2FC2C1CE103 /* CSNetwork.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CSNetwork/CSNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSNetwork/CSNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CSNetwork/CSNetwork.modulemap";
+				PRODUCT_MODULE_NAME = CSNetwork;
+				PRODUCT_NAME = CSNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDD969815EFC845D147A2D9DC55A4E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D096D09ED446E7BDC928E4CD80D9FB /* Pods-ZUJian.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZUJian/Pods-ZUJian-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZUJian/Pods-ZUJian.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1DE73FB04FFB27422082D7C80E81FC /* Build configuration list for PBXNativeTarget "Pods-ZUJian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDF340280C276F50FACBEAE7E77E082 /* Debug */,
+				CDD969815EFC845D147A2D9DC55A4E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85E1DEA401FEBDCBB35D70005681B9F /* Build configuration list for PBXNativeTarget "CSNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE30EBEDDB0908F0820D1E72D437EF6 /* Debug */,
+				CAA18A0748E7CFC3098C9F7F93DAF5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
